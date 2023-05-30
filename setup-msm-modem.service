@@ -1,0 +1,12 @@
+[Unit]
+Description=UIM Slot selection
+After=rmtfs.service
+Before=ofono.service
+Before=modemmanager.service
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash -c 'usr/bin/setup-modem.sh'
+
+[Install]
+WantedBy=multi-user.target
