@@ -1,0 +1,7 @@
+Package: msm-modem
+Version: 1.0-1
+Architecture: all
+Maintainer: Your Name <minhazul.ctg123@gmail.com>
+Description: Script and service files for Qualcomm QMI modem
+Depends: rmtfs
+Homepage: https://github.com/Minha-D/msm-modem
